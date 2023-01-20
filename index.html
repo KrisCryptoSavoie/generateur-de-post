@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lettre pour absence injustifiée</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="src/app.ts" type="module" defer></script>
+  </head>
+  <body class="container">
+    <article>
+      <header>
+        <h2>Corrige et génère des poste pour les réseaux sociaux</h2>
+        <p>
+          Remplis les informations ci-dessous !
+        </p>
+      </header>
+
+      <form>
+        <strong>Que faire ?</strong>
+        <select name="statut" id="statut">
+          <option value="Corrige">Corrige</option>
+          <option value="Améliore">Améliore</option>
+          <option value="Rédige de façon Profetionel">Rédige de façon Profetionel</option>
+          <option value="Rédige Pour Les réseoux type facebook">Rédige Pour Les réseoux type facebook</option>
+
+        </select>
+
+        <input
+          type="text"
+          id="post"
+          placeholder="Coller ici le texte"
+        />
+
+        <button>Génère !</button>
+      </form>
+    </article>
+    <article id="result">
+      <h2>Remplis les informations !</h2>
+    </article>
+    <button id="copy">Copier l'excuse</button>
+  </body>
+  <footer align="center">	&#169;--2023--Générateur By MCF-DEV</footer>
+</html>
