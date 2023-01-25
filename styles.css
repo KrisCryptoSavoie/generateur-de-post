@@ -1,4 +1,22 @@
 @import url("@picocss/pico");
+html,
+
+body {
+  background-image: url('backgroundapp.jpg');
+  background-position: center;
+  background-repeat: repeat;
+  color: rgb(255, 255, 255);
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 form strong {
   display: inline-block;
