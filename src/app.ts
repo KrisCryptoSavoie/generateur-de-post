@@ -42,7 +42,7 @@ const setLoadingResult = (state: boolean) => {
 
 const generateOpenAIPrompt = () => {
 
-  const prompt = `${statut.value} ce texte ${post.value}
+  const prompt = `${statut.value} ${type.value} ${post.value}
   `;
 
   return prompt;
