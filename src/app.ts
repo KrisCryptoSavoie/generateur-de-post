@@ -8,7 +8,7 @@ import {
 } from "rxjs";
 import { ajax } from "rxjs/ajax";
 
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 const form = document.querySelector<HTMLFormElement>("form")!;
 const statut = document.querySelector<HTMLInputElement>("#statut")!;
