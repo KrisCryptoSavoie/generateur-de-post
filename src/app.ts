@@ -7,9 +7,8 @@ import {
   fromEvent,
 } from "rxjs";
 import { ajax } from "rxjs/ajax";
-import dotenv from 'dotenv'; dotenv.config();
 
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const OPENAI_API_KEY = "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";
 
 const form = document.querySelector<HTMLFormElement>("form")!;
 const statut = document.querySelector<HTMLInputElement>("#statut")!;
@@ -43,7 +42,7 @@ const setLoadingResult = (state: boolean) => {
 
 const generateOpenAIPrompt = () => {
 
-  const prompt = `${statut.value} ce texte ${post.value}
+  const prompt = `${statut.value} ${type.value} ${post.value}
   `;
 
   return prompt;
