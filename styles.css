@@ -1,39 +1,28 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+@import url("@picocss/pico");
+html,
+
+body {
   background-color: #1a0c6a;
-  color: #ffffff;
+  background-position: center;
+  background-repeat: repeat;
+  color: rgb(255, 255, 255);
+
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-article {
-  background-color: #2b1a80;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
-  width: 90%;
-  max-width: 600px;
+* {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 20px;
+form strong {
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
-p {
-  text-align: center;
-}
-
-strong {
-  display: block;
-  margin: 10px 0;
+#copy {
+  display: none;
 }
